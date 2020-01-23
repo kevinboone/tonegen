@@ -1,0 +1,5 @@
+- Add feature for listing ALSA PCM devices.
+- Add scripting feature to extend the range of sounds that can be
+   produced
+- Write man page
+
