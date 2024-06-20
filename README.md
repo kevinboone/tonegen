@@ -170,7 +170,7 @@ probably has a shell. If you give the switch `--list -`, then you
 can feed a list of sound specifications into `tonegen` from standard
 input. So you could do
 
-    $ my_script.sh | tonegen
+    $ my_script.sh | tonegen -l -
 
 See the `sample.sh` file for an example of a simple script.
 
@@ -181,11 +181,11 @@ There's no limit on the amount of data that can be fed into
 `tonegen` this way, except the memory limit of the host system.
 However, bear in mind that `tonegen` won't start to produce
 output until the script sending data has completed. The method can't
-reliably be used, for example, to make sounds as arbitrary times.
+reliably be used, for example, to make sounds at arbitrary times.
 
 ## Legal and copyright
 
-`tonegen` is copyright (c)2015-202 Kevin Boone, and distributed under
+`tonegen` is copyright (c)2015-2024 Kevin Boone, and distributed under
 the terms of the GNU Public Licence, v3.0. Essentiially,
 you may do whatever you
 like with this software, provided the original author continues

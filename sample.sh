@@ -1,8 +1,9 @@
-function warble ()
+#!/bin/bash
+
+warble ()
   {
   freq=$1
-  for i in {1..8}
-  do
+  for i in {1..8} ; do
     echo volume 100 
     echo tone 15,$1
     echo volume 10
